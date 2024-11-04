@@ -1,0 +1,73 @@
+
+[font]
+normal = { family = "Iosevka", style = "regular" }
+size = 9.0
+
+[colors]
+[colors.primary]
+background = "#0D0D0D"
+foreground = "#c2c2c2"
+
+[colors.cursor]
+text = "#0D0D0D"
+cursor = "#c2c2c2"
+
+[colors.vi_mode_cursor]
+text = "#0D0D0D"
+cursor = "#c2c2c2"
+
+[colors.search.matches]
+foreground = "#0D0D0D"
+background = "#c2c2c2"
+
+[colors.search.focused_match]
+foreground = "CellBackground"
+background = "CellForeground"
+
+[colors.line_indicator]
+foreground = "None"
+background = "None"
+
+[colors.footer_bar]
+foreground = "#6a5757"
+background = "#c2c2c2"
+
+[colors.selection]
+text = "CellBackground"
+background = "CellForeground"
+
+[colors.normal]
+black = "#0D0D0D"
+red = "#4B4E54"
+green = "#5C585C"
+yellow = "#706E6C"
+blue = "#BB1212"
+magenta = "#942526"
+cyan = "#CB1A1B"
+white = "#c2c2c2"
+
+[colors.bright]
+black = "#6a5757"
+red = "#4B4E54"
+green = "#5C585C"
+yellow = "#706E6C"
+blue = "#BB1212"
+magenta = "#942526"
+cyan = "#CB1A1B"
+white = "#c2c2c2"
+
+[colors.dim]
+black = "#c2c2c2"
+red = "#4B4E54"
+green = "#942526"
+yellow = "#706E6C"
+blue = "#BB1212"
+magenta = "#5C585C"
+cyan = "#CB1A1B"
+white = "#6a5757"
+
+[keyboard]
+bindings = [
+{ key = "Plus", mods = "Control|Shift", action = "IncreaseFontSize" },
+{ key = "Minus", mods = "Control|Shift", action = "DecreaseFontSize" },]
+
